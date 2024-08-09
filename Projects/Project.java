@@ -29,6 +29,10 @@ public class Project {
         return tasks;
     }
     
+    public void findTask(){
+        
+    }
+    
 
      
      public int howMany(){
@@ -50,7 +54,7 @@ public class Project {
        return howComplete()/howMany();
      }
      
-     public void search(){
+     public void searchTask(){
          
      }
             
