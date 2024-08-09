@@ -46,10 +46,6 @@ public class Task {
     public void addComent(Coment coment) {
         this.comentList.add(coment);
     }
-
-    public void removeComent(int index) {
-        this.comentList.remove(index);
-    }
     
     public void removeComent(Coment coment) {
         this.comentList.remove(coment);
