@@ -4,6 +4,7 @@
  */
 package Projects;
 
+import Tasks.Task;
 import java.util.ArrayList;
 
 /**
@@ -28,7 +29,7 @@ public class Project {
         return tasks;
     }
     
-    public void addProjects(Project project){
+    public void addTareas(Task project){
         tasks.add(project);
         count+=1;
     }
