@@ -29,7 +29,29 @@ public class Project {
         return tasks;
     }
     
-    public void addTareas(Task project){
+
+     
+     public int howMany(){
+         return tasks.size();
+     }
+     
+     public int howComplete(){
+         int cant=0;
+         for (Task task : tasks){
+             if (task.isComplete()){
+                 cant++;
+                 
+             }
+         }
+         return cant;
+     }
+     
+     public int howPercentage(){
+       return howComplete()/howMany();
+     }
+            
+            
+    public void addTask(Task project){
         tasks.add(project);
         count+=1;
     }
