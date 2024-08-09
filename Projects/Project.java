@@ -49,6 +49,10 @@ public class Project {
      public int howPercentage(){
        return howComplete()/howMany();
      }
+     
+     public void search(){
+         
+     }
             
             
     public void addTask(Task project){
